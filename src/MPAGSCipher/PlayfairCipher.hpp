@@ -16,7 +16,15 @@
 
 /**
  * \class PlayfairCipher
- * \brief Encrypt or decrypt text using the Caesar cipher with the given key
+ * \brief Encrypt or decrypt text using the playfair cipher with the given key
+ * 
+ * This class can encrypt any input text using the playfair cipher. The input
+ * text should only contain symbols belonging to the standard English alphabet.
+ * Any other symbols including empty spaces will be removed.
+ * The deciphering process only reverts the shifts in the key-grid. It does not
+ * remove the X and Q characters inserted between double symbols as this could
+ * alter the meaning of statements (i.e. "complex example" requires an x between
+ * two e).
  */
 class PlayfairCipher {
   public:

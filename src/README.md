@@ -107,6 +107,8 @@ follows:
     │   ├── CMakeLists.txt
     │   ├── CaesarCipher.cpp
     │   ├── CaesarCipher.hpp
+    │   ├── PlayfairCipher.cpp
+    │   ├── PlayfairCipher.hpp
     │   ├── CipherMode.hpp
     │   ├── CipherType.hpp
     │   ├── ProcessCommandLine.cpp
